@@ -3,10 +3,8 @@ const btnSubmit = document.getElementById('submitBtn');
 const vowelHTML = document.getElementById("vowel");
 const consonantHTML = document.getElementById('consonant');
 
-
-
-const testing = (e) => {
-    e.preventDefault();
+// function vowelAndConsonan
+const vowelAndConsonan = () => {
     const vowelRegex = /[aiueo]/
     const textValue = inputText.value.toLowerCase();
     const textValueNoSpace = textValue.replace(/\s/g, '');
@@ -18,4 +16,4 @@ const testing = (e) => {
    
 }
 
-btnSubmit.addEventListener('click', testing)
+btnSubmit.addEventListener('click', vowelAndConsonan)
