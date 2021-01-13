@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vowel and consonant</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Vowel And Consonant</h1>
+
+    <form>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          max-width: 500px;
+          margin: 0 auto;
+        "
+      >
+        <label for="text" style="text-align: center">Input Words</label>
+        <input type="text" id="text" />
+        <input type="button" id="submitBtn" value="Submit" />
+      </div>
+    </form>
+
+    <section>
+      <div style="display: flex; align-items: center">
+        <h3 style="margin-right: 10px">Vowel Words :</h3>
+        <p id="vowel"></p>
+      </div>
+
+      <div style="display: flex; align-items: center;">
+        <h3 style="margin-right: 10px">Consonant Words :</h3>
+        <p id="consonant"></p>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
